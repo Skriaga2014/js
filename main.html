@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,5 +7,33 @@
 </head>
 <body>
 
+=======
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="scheme.css">
+    <meta charset="UTF-8">
+    <title>Ипотечный калькулятор</title>
+</head>
+<body>
+    <div>стоимость недвижимости:</div>
+<input id="estate_input" value=10000000>
+<input type="range" id="estate_range" value=10000000 min=0 max=25000000 step="100000"><br>
+    <div>сумма первоначального взноса:</div>
+<input id="contrib_input" value=2000000>
+<input type="range" id="contrib_range" value=2000000 min=0 max=25000000 step="100000"><br>
+    <div>сумма кредита: <b id="credit_sum"></b></div><br>
+    <div>ставка (%):</div>
+<input id="percent_input" value=8.5>
+<input type="range" id="percent_range" value=8.5 min=0 max=20 step=0.01><br>
+    <div>срок (лет):</div>
+<input id="years_input" value=20>
+<input type="range" id="years_range" value=20 min=1 max=30 step=1><br>
+<p>Ежемесячный платеж: <b id="result">_</b></p>
+<button id="button">рассчитать ежемесячный платеж</button>
+
+<script src="script.js">
+
+</script>
+>>>>>>> final
 </body>
 </html>

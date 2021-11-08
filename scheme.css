@@ -1,0 +1,25 @@
+body {
+    background-color: blanchedalmond
+}
+
+input {
+    background-color: burlywood;
+}
+
+p {
+    font-size: large;
+    font-family: "Arial", Times, serif;
+}
+
+div {
+    font-size: medium;
+    font-family: "Arial", Times, serif;
+}
+
+button {
+    background-color: ivory;
+    border-color: darksalmon;
+    width: 250px;
+    height: 50px;
+    font-style: inherit;
+}
